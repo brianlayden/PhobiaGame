@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Juliet\Assets\MicControl\C# version\ReadMe.txt">
+    <Files>
+      <File FileName="..\Juliet\Assets\NPC.cs" Line="1" Column="1" />
+      <File FileName="..\Juliet\Assets\MicControl\C# version\MicControlC.cs" Line="20" Column="34" />
+      <File FileName="..\Juliet\Assets\MicControl\C# version\ReadMe.txt" Line="29" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

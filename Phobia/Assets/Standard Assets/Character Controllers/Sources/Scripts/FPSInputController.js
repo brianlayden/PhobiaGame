@@ -1,5 +1,4 @@
 private var motor : CharacterMotor;
-
 // Use this for initialization
 function Awake () {
 	motor = GetComponent(CharacterMotor);
@@ -25,11 +24,17 @@ function Update () {
 		
 		// Multiply the normalized direction vector by the modified length
 		directionVector = directionVector * directionLength;
+		
 	}
 	
 	// Apply the direction to the CharacterMotor
 	motor.inputMoveDirection = transform.rotation * directionVector;
-	motor.inputJump = Input.GetButton("Jump");
+	
+	motor.inputJump=Input.GetButton("Jump");
+	
+	
+	
+	
 }
 
 // Require a character controller to be attached to the same game object

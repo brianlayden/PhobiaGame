@@ -57,7 +57,7 @@
      <None Include="Assets\Plugins\x86\donotdelete.txt" />
      <None Include="Assets\Terrain\TerrainToolkit\Read me.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/floresja/Desktop/PhobiaGame.git/trunk/Phobia/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/laydenbr/Desktop/PhobiaGame.git/trunk/Phobia/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>

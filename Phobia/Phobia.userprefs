@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\activateBridgeFall.cs">
     <Files>
-      <File FileName="Assets\activateBridgeFall.cs" Line="6" Column="33" />
+      <File FileName="Assets\activateBridgeFall.cs" Line="21" Column="6" />
       <File FileName="Assets\walkingScript.cs" Line="1" Column="1" />
       <File FileName="Assets\ActivatePillar.cs" Line="1" Column="1" />
-      <File FileName="Assets\WindZone.cs" Line="8" Column="44" />
-      <File FileName="Assets\playerExitStartCave.cs" Line="7" Column="9" />
-      <File FileName="Assets\firstCaveReenter.cs" Line="25" Column="4" />
+      <File FileName="Assets\WindZone.cs" Line="1" Column="1" />
+      <File FileName="Assets\playerExitStartCave.cs" Line="25" Column="39" />
+      <File FileName="Assets\firstCaveReenter.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

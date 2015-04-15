@@ -15,6 +15,9 @@ public class activateBridgeFall : MonoBehaviour {
 	}
 	void OnTriggerEnter(Collider bridgeCollider)
 	{
-		Destroy (bridgeHinge);
+
+		if (bridgeCollider.name == "BreakBridge") {
+						Destroy (bridgeHinge);
+				}
 		}
 }

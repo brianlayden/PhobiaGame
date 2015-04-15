@@ -15,10 +15,28 @@ public class playerExitStartCave : MonoBehaviour {
 	
 	}
 
+	void OnTriggerExit(Collider exitCollider)
+	{
+		if (exitCollider.name == "StartCave") {
+						Debug.Log("Left Cave");
+						terrainEnabled = !terrainEnabled;
+						theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
+				}
+		if (exitCollider.name == "EnterCave2") {
+			Debug.Log("Left Cave");
+			terrainEnabled = !terrainEnabled;
+			theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
+		}
+	}
+
 	void OnTriggerEnter(Collider exitCollider)
 	{
-		terrainEnabled = !terrainEnabled;
-		theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
-	}
+		/*
+		if (exitCollider.name == "ExitRockMesh") {
+						terrainEnabled=!terrainEnabled;
+						theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
+				}
+				*/
+		}
 
 }

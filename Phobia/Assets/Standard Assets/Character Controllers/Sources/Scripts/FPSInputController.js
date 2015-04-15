@@ -1,19 +1,16 @@
 private var motor : CharacterMotor;
 
 // Use this for initialization
-function Awake()
-{
+function Awake () {
 	motor = GetComponent(CharacterMotor);
 }
 
 // Update is called once per frame
-function Update()
-{
-	// Get the input vector from kayboard or analog stick
+function Update () {
+	// Get the input vector from keyboard or analog stick
 	var directionVector = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 	
-	if (directionVector != Vector3.zero)
-	{
+	if (directionVector != Vector3.zero) {
 		// Get the length of the directon vector and then normalize it
 		// Dividing by the length is cheaper than normalizing when we already have the length anyway
 		var directionLength = directionVector.magnitude;
@@ -28,12 +25,7 @@ function Update()
 		
 		// Multiply the normalized direction vector by the modified length
 		directionVector = directionVector * directionLength;
-		
-		if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
-			directionVector *= 3;
 	}
-	
-	
 	
 	// Apply the direction to the CharacterMotor
 	motor.inputMoveDirection = transform.rotation * directionVector;

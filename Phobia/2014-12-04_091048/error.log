@@ -1,0 +1,102 @@
+Unity Player [version: Unity 4.5.5f1_7684ad0c5a44]
+
+OculusPlugin.dll caused an Access Violation (0xc0000005)
+  in module OculusPlugin.dll at 0033:e05a20f7.
+
+Error occurred at 2014-12-04_091058.
+C:\Users\DrFantastik\Desktop\Phobia\Phobia\Phobia_Fear of Heights2.exe, run by DrFantastik.
+61% memory in use.
+16383 MB physical memory [6349 MB free].
+32763 MB paging file [19538 MB free].
+8388608 MB user address space [8388264 MB free].
+Read from location 00000000 caused an access violation.
+
+Context:
+RDI:    0x08050c00  RSI: 0x00000000  RAX:   0x00000000
+RBX:    0x00000000  RCX: 0x0db40660  RDX:   0x00000090
+RIP:    0xe05a20f7  RBP: 0x0029e269  SegCs: 0x00000033
+EFlags: 0x00010206  RSP: 0x0029e1d0  SegSs: 0x0000002b
+R8:    0x0db40660  R9: 0x0db40650  R10:   0x00000004
+R11:    0x70c2e612  R12: 0x00000000  R13:   0x0029e588
+R14:    0xe062bbf8  R15: 0x0029e528
+
+Bytes at CS:EIP:
+48 8b 00 48 89 41 10 c7 41 18 08 00 00 00 48 8d Module 1
+C:\Windows\system32\xinput1_3.dll
+Image Base: 0x00400000  Image Size: 0x0001e000
+File Size:  107368      File Time:  2007-04-04_185422
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® DirectX for Windows®
+   FileDesc:   Microsoft Common Controller API
+   FileVer:    9.18.944.0
+   ProdVer:    9.18.944.0
+
+Module 2
+C:\Windows\system32\nvspcap64.dll
+Image Base: 0x80000000  Image Size: 0x002b1000
+File Size:  2799784     File Time:  2014-09-16_211242
+Version:
+   Company:    NVIDIA Corporation
+   Product:    NVIDIA GeForce Experience
+   FileDesc:   NVIDIA Capture Server Proxy
+   FileVer:    16.13.42.0
+   ProdVer:    16.13.42.0
+
+Module 3
+C:\Windows\system32\ksuser.dll
+Image Base: 0x6f2d0000  Image Size: 0x00006000
+File Size:  5120        File Time:  2009-07-13_204114
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Windows® Operating System
+   FileDesc:   User CSA Library
+   FileVer:    6.1.7600.16385
+   ProdVer:    6.1.7600.16385
+
+Module 4
+C:\Windows\system32\kernel32.dll
+Image Base: 0x771c0000  Image Size: 0x0011f000
+File Size:  1163264     File Time:  2014-03-04_044402
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Windows® Operating System
+   FileDesc:   Windows NT BASE API Client DLL
+   FileVer:    6.1.7601.18409
+   ProdVer:    6.1.7601.18409
+
+Module 5
+C:\Windows\system32\USER32.dll
+Image Base: 0x772e0000  Image Size: 0x000fa000
+File Size:  1008128     File Time:  2010-11-20_222410
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Windows® Operating System
+   FileDesc:   Multi-User Windows USER API Client DLL
+   FileVer:    6.1.7601.17514
+   ProdVer:    6.1.7601.17514
+
+Module 6
+C:\Windows\SYSTEM32\ntdll.dll
+Image Base: 0x773e0000  Image Size: 0x001a9000
+File Size:  1732032     File Time:  2013-08-28_211636
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Windows® Operating System
+   FileDesc:   NT Layer DLL
+   FileVer:    6.1.7601.18247
+   ProdVer:    6.1.7601.18247
+
+Module 7
+C:\Windows\system32\PSAPI.DLL
+Image Base: 0x775a0000  Image Size: 0x00007000
+File Size:  9216        File Time:  2009-07-13_204154
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft® Windows® Operating System
+   FileDesc:   Process Status Helper
+   FileVer:    6.1.7600.16385
+   ProdVer:    6.1.7600.16385
+
+
+== [end of error.log] ==

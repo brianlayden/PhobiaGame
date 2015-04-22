@@ -5,6 +5,7 @@ public class playerExitStartCave : MonoBehaviour {
 	public Collider exitCollider;
 	public Terrain theTerrain;
 	public bool terrainEnabled = false;
+	public AudioSource windSound;
 	// Use this for initialization
 	void Start () {
 	
@@ -21,9 +22,10 @@ public class playerExitStartCave : MonoBehaviour {
 						Debug.Log("Left Cave");
 						terrainEnabled = !terrainEnabled;
 						theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
+			windSound.volume=1.0f;
 				}
 		if (exitCollider.name == "EnterCave2") {
-			Debug.Log("Left Cave");
+			Debug.Log("Entered cave 2");
 			terrainEnabled = !terrainEnabled;
 			theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
 		}

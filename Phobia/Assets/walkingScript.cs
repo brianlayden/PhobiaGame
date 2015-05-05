@@ -29,11 +29,11 @@ public class walkingScript : MonoBehaviour {
 		if(playerMove==true) {
 			player.transform.position +=playerCamera.transform.forward *(Time.deltaTime*moveSpeed);
 		}
-		/*
+
 		if (KillScript.playerDead == true) {
 						moveSpeed = 0;
 				}
-		*/
+
 		
 	}
 }

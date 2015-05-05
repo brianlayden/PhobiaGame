@@ -36,7 +36,7 @@ public class playerExitStartCave : MonoBehaviour {
 			caveInSound.enabled=true;
 		}
 		if (exitCollider.name == "ExitCaveThree") {
-			Debug.Log("Entered cave 2");
+			Debug.Log("Exit cave 3");
 			terrainEnabled = !terrainEnabled;
 			theTerrain.GetComponent<TerrainCollider> ().enabled = terrainEnabled;
 			windSound.volume =.12f;
